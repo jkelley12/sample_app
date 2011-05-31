@@ -84,3 +84,42 @@ Started GET "/pages/contact" for 127.0.0.1 at 2011-05-31 13:09:17 -0700
   Processing by PagesController#contact as HTML
 Rendered pages/contact.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at 2011-05-31 14:16:20 -0700
+
+SyntaxError (/Users/Jordan/rails_projects/sample_app/app/helpers/application_helper.rb:11: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.4ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 14:16:30 -0700
+
+SyntaxError (/Users/Jordan/rails_projects/sample_app/app/helpers/application_helper.rb:11: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 14:19:31 -0700
+
+SyntaxError (/Users/Jordan/rails_projects/sample_app/app/helpers/application_helper.rb:11: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/pages_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.9ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.5ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 14:20:35 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
