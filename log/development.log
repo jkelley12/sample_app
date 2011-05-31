@@ -12,3 +12,75 @@ Started GET "/pages/home" for 127.0.0.1 at 2011-05-30 23:59:18 -0700
   Processing by PagesController#home as HTML
 Rendered pages/home.html.erb within layouts/application (2.1ms)
 Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-05-31 12:22:03 -0700
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-05-31 12:36:56 -0700
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-05-31 12:39:24 -0700
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb (0.4ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-05-31 12:39:26 -0700
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb (0.4ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-05-31 12:40:07 -0700
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb (0.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-05-31 12:40:10 -0700
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb (0.4ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2011-05-31 12:40:11 -0700
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb (0.4ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at 2011-05-31 12:40:27 -0700
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb (0.4ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 12:54:10 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb (0.4ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 13:02:21 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 13:09:11 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at 2011-05-31 13:09:17 -0700
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
