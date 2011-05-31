@@ -1,0 +1,14 @@
+
+
+Started GET "/hello.html" for 127.0.0.1 at 2011-05-30 23:57:36 -0700
+
+ActionController::RoutingError (No route matches "/hello.html"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-30 23:59:18 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
