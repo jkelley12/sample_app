@@ -135,3 +135,339 @@ Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 16:31:14 -0700
   Processing by PagesController#home as HTML
 Rendered pages/home.html.erb within layouts/application (2.2ms)
 Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:18:15 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:25:17 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:25:18 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (72.8ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:25:18 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:27:09 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:27:09 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:27:09 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:28:43 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:28:43 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:28:43 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:29:00 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:29:00 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:29:00 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:29:11 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:29:12 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:29:12 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (13.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:33:16 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:33:16 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:33:16 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:34:15 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:34:15 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:34:15 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:34:21 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:34:21 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:34:21 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.4ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:34:24 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:34:24 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:34:24 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:34:51 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:34:51 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (12.9ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:34:51 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:35:06 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:35:06 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:35:06 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:35:16 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:35:16 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:35:16 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:35:21 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:35:21 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:35:21 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:36:14 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 18ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:36:15 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:36:15 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 17:36:23 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2011-05-31 17:36:23 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-05-31 17:36:23 -0700
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (11.2ms)
