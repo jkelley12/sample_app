@@ -123,3 +123,15 @@ Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 14:20:35 -0700
   Processing by PagesController#home as HTML
 Rendered pages/home.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 15:05:34 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-05-31 16:31:14 -0700
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
