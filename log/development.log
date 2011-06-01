@@ -1250,3 +1250,9 @@ Migrating to AddEmailUniquenessIndex (20110601233057)
   [1m[35mSQL (0.2ms)[0m  SELECT version FROM "schema_migrations"
   [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110601233057')[0m
   [1m[35mSQL (0.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20110601193504')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('jkelley@example.com')) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES ('2011-06-01 23:44:30.873823', 'jkelley@example.com', 'Jordan Kelley', '2011-06-01 23:44:30.873823')[0m
