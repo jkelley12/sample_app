@@ -1888,3 +1888,173 @@ Completed 200 OK in 43ms (Views: 14.1ms | ActiveRecord: 0.3ms)
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
   [1m[35mSQL (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) AS count_id FROM "users"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE ("users"."email" IS NULL) LIMIT 1[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 03:43:26 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 03:43:29 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-02 03:43:31 -0700
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered layouts/_footer.html.erb (1.9ms)
+Rendered users/new.html.erb within layouts/application (92.4ms)
+Completed 200 OK in 117ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-02 03:43:43 -0700
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKX/hxk2VDh80dfIOaVnsONqLTxg3Rfs2J6A+iffKAA=", "user"=>{"name"=>"Rails Tutorial", "email"=>"example@railsss.org", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('example@railsss.org')) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "salt", "updated_at") VALUES ('2011-06-02 10:43:43.505055', 'example@railsss.org', '87b2f87fae8cac6afe5e7061c84bf718ae703ca673a16d989a44e6e2b7ca45a0', 'Rails Tutorial', '1abc036e607443d17095e2a3f7f46f8ffe83b8b92074dad25f73f609a1add3f8', '2011-06-02 10:43:43.505055')[0m
+Completed   in 5257ms
+
+SQLite3::BusyException (database is locked):
+  app/controllers/users_controller.rb:15:in `create'
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-02 03:44:25 -0700
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKX/hxk2VDh80dfIOaVnsONqLTxg3Rfs2J6A+iffKAA=", "user"=>{"name"=>"Rails Tutorial", "email"=>"example@railsss.org", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('example@railsss.org')) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "salt", "updated_at") VALUES ('2011-06-02 10:44:25.244073', 'example@railsss.org', 'fb4186cbd6cc5fe0870a5f1974bd819cc210712ca8bd7b3efc921ebfcc1159b0', 'Rails Tutorial', '5782221f9fb231e08ca9d0da2d3a2bd5473255788578dd97280f6df534c30ec6', '2011-06-02 10:44:25.244073')[0m
+Completed   in 5066ms
+
+SQLite3::BusyException (database is locked):
+  app/controllers/users_controller.rb:15:in `create'
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 03:45:09 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-02 03:45:11 -0700
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 45ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-02 03:45:28 -0700
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kSIq6zwjbl/RkjPi+He31khaTCFOWr4G8P80ctIegsY=", "user"=>{"name"=>"Jordan Kelley", "email"=>"jkelley33@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('jkelley33@gmail.com')) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "salt", "updated_at") VALUES ('2011-06-02 10:45:28.960528', 'jkelley33@gmail.com', 'd8db2cc30709a498d8cd6ca104a9a99b0022e7e908962b2e58185b45991b1bb0', 'Jordan Kelley', 'aa6c9873b6cbf23477d608827d557f3cc464602eb695be50c66dc8a00b6a3061', '2011-06-02 10:45:28.960528')[0m
+Completed   in 5089ms
+
+SQLite3::BusyException (database is locked):
+  app/controllers/users_controller.rb:15:in `create'
+
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /Users/Jordan/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 03:47:28 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.4ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-06-02 03:47:30 -0700
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/new.html.erb within layouts/application (113.6ms)
+Completed 200 OK in 139ms (Views: 119.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-06-02 03:47:46 -0700
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rSewCbHMJ1Wrve8KXoqRlfT8Bbnb27AhvG3UMMXjzEI=", "user"=>{"name"=>"jordan", "email"=>"jkelley22@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('jkelley22@gmail.com')) LIMIT 1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "salt", "updated_at") VALUES ('2011-06-02 10:47:46.250538', 'jkelley22@gmail.com', 'cea2e5d221e4ec33a1ed22d29386d80103353f22df5ebfe15845acdce336d459', 'jordan', 'd31e7f4342d0f3b3607dcfde778e887d5f7ab96eeb804a3dc6db6c6f1bcd271f', '2011-06-02 10:47:46.250538')[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 181ms
+
+
+Started GET "/users/1" for 127.0.0.1 at 2011-06-02 03:47:46 -0700
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE ("users"."id" = 1) LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered users/show.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 50ms (Views: 19.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 03:50:37 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2011-06-02 03:50:48 -0700
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered users/show.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 79ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" LIMIT 1
