@@ -14,3 +14,6 @@ group :test do
 	gem 'spork', '0.8.4'
 	gem 'factory_girl_rails', '1.0'
 end
+
+source :gemcutter
+gem 'sinatra', '1.0'
