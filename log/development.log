@@ -1641,3 +1641,36 @@ Migrating to AddSaltToUsers (20110602053849)
   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "name", "salt", "updated_at") VALUES ('2011-06-02 06:32:29.593570', 'jkelley32@example.com', '87415262ffa84e0bd6bd15bfcf9103699d9cfed912b7aa8e568228fb75a9c714', 'Jordan Kelley', '729a1f95afb0714f7cb32355bbf04c5a410088759481ff6f56cd422c0cb01b0c', '2011-06-02 06:32:29.593570')[0m
   [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE ("users"."email" = 'jkelley32@example.com') LIMIT 1
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."email" = 'jkelley32@example.com') LIMIT 1[0m
+
+
+Started GET "/users/new" for 127.0.0.1 at 2011-06-01 23:53:50 -0700
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 23:53:55 -0700
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2011-06-01 23:54:05 -0700
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE ("users"."id" = 1) LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/show.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 107ms (Views: 28.0ms | ActiveRecord: 1.1ms)
